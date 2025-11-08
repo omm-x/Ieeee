@@ -1,0 +1,23 @@
+package SNU.studentpkg;
+
+public class StudentInfo {
+    private String name;
+    private String rollNumber;
+    private String course;
+
+    // Constructor
+    public StudentInfo(String name, String rollNumber, String course) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+        this.course = course;
+    }
+
+    // Method to display student details
+    public void displayDetails() {
+        System.out.println("---- Student Details ----");
+        System.out.println("Name: " + name);
+        System.out.println("Roll Number: " + rollNumber);
+        System.out.println("Course: " + course);
+        System.out.println();
+    }
+}
