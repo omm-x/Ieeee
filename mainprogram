@@ -1,0 +1,16 @@
+import SNU.studentpkg.StudentInfo;
+import SNU.facultypkg.FacultyInfo;
+
+public class MainProgram {
+    public static void main(String[] args) {
+        // Create a student object
+        StudentInfo student = new StudentInfo("Om Kumar", "CSE2027001", "Computer Science Engineering");
+
+        // Create a faculty object
+        FacultyInfo faculty = new FacultyInfo("Dr. Rajesh Sharma", "EMP102", "CSE Department");
+
+        // Display details
+        student.displayDetails();
+        faculty.displayDetails();
+    }
+}
